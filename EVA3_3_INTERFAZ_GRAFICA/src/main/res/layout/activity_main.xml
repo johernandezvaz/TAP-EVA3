@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rdGrpEstadoCivil"
+        android:layout_width="338dp"
+        android:layout_height="255dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="215dp">
+
+        <RadioButton
+            android:id="@+id/rdSoltero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soltero" />
+
+        <RadioButton
+            android:id="@+id/rdCasado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casado" />
+
+        <RadioButton
+            android:id="@+id/rdViudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viudo" />
+
+        <RadioButton
+            android:id="@+id/rdUnionLibre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Union Libre" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtTxtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <EditText
+        android:id="@+id/edtTxtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Apellido"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnNomCompleto"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:text="Nombre Completo"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="333dp"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/pexels_pixabay_2363"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
